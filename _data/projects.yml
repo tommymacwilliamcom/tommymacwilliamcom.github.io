@@ -1,0 +1,89 @@
+- section: Web Development
+  items:
+    - name: asana-client
+      link: http://github.com/tmacwill/asana-client
+      description: A Ruby API and command-line interface for Asana with SCM integration.
+
+    - name: CrowdCL
+      link: https://github.com/tmacwill/crowdcl
+      description: A framework for crowdsourcing GPU-based computational problems.
+
+    - name: "CS50 Fair: The App"
+      link: http://fair.cs50.net/2012/fall/?kiosk
+      description: Mobile web app for the annual CS50 Fair.
+
+    - name: CS50 ID
+      link: https://github.com/tmacwill/cs50-id-ruby
+      description: Ruby client exposing Harvard authentication through OpenID.
+
+    - name: EdiTableTable for jQuery
+      link: https://github.com/tmacwill/jquery.editabletable
+      description: A simple jQuery plugin that creates a list of items with add/edit/delete capability.
+
+    - name: Rupee
+      link: https://github.com/tmacwill/rupee
+      description: Caching for Python 3
+
+    - name: Stellata
+      link: https://github.com/tmacwill/stellata
+      description: A PostgreSQL ORM for Python 3.
+
+    - name: Tails
+      link: https://github.com/tmacwill/tails
+      description: A collection of utilities for Sanic (and/or Stellata and/or Webpack) apps.
+
+    - name: TM_Model
+      link: https://github.com/tmacwill/tm-model
+      description: A lightweight ORM for CodeIgniter that supports relations.
+
+    - name: version50
+      link: https://github.com/tmacwill/version50
+      description: A Git abstraction for students with GitHub and BitBucket integration.
+
+    - name: video50
+      link: https://github.com/cs50/video50
+      description: Embed video with interactive Q&A.
+
+    - name: WebCL KernelContext
+      link: https://github.com/tmacwill/webcl-kernelcontext
+      description: A PyCUDA-like API for WebCL.
+
+- section: Coursework
+  items:
+      - name: AC263
+        link: https://bitbucket.org/tmacwill/ac263-project
+        description: Scalable plagiarism detection.
+
+      - name: CS42
+        link: https://github.com/tmacwill/project-orwell
+        description: Distributed document integrity verification.
+
+      - name: CS51
+        link: https://github.com/tmacwill/cs51-brickbreaker
+        description: Breakout with multiplayer and editable levels.
+
+      - name: CS171
+        link: https://bitbucket.org/tmacwill/cs171-project
+        description: Graph your Facebook News Feed.
+
+      - name: CS175
+        link: https://bitbucket.org/tmacwill/cs175-project
+        description: Music-based 2D and 3D particle systems in OpenGL.
+
+      - name: CS205
+        link: https://bitbucket.org/tmacwill/cs205-project
+        description: Parallelized graph algorithms with MPI and MapReduce.
+
+- section: Miscellaneous
+  items:
+    - name: The Best .vimrc Ever
+      link: https://github.com/tmacwill/vimrc
+      description: My Vim configuration, now standard at Harvard CS.
+
+    - name: CS50 Queue
+      link: https://github.com/tmacwill/queue50-ipad
+      description: Manage office hours, Genius Bar style.
+
+    - name: PHP CLI Input
+      link: https://github.com/tmacwill/php-cli-input
+      description: ncurses-based input library for PHP. Because why not?

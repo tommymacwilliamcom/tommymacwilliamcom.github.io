@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Section4App1</string>
+    <string name="button1Text">Here\'s a button with a lot of attributes</string>
+    <string name="button2Text">Here\'s the same button, styled</string>
+    <string name="button3Text">And this one has an inherited style</string>
+</resources>

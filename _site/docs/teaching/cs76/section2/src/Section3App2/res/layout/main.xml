@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20sp"
+    >
+    	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="David"
+    		android:textSize="28sp"></TextView>
+    	<RatingBar android:layout_width="wrap_content" android:layout_height="wrap_content"></RatingBar>
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20sp"
+    >
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dan"
+        	android:textSize="28sp"></TextView>
+    	<RatingBar android:layout_width="wrap_content" android:layout_height="wrap_content"></RatingBar>
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20sp"
+    >
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tommy"
+        	android:textSize="28sp"></TextView>    
+    	<RatingBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:rating="5"></RatingBar>
+    </LinearLayout>
+</LinearLayout>

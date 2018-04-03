@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+	<!-- first, move 50 pixels to the bottom right -->
+	<translate xmlns:android="http://schemas.android.com/apk/res/android"
+		android:toXDelta="50"
+		android:toYDelta="50"
+		android:startOffset="0"
+		android:duration="500"
+	 />
+	
+	<!-- then, move 50 pixels to the top left -->
+	<translate xmlns:android="http://schemas.android.com/apk/res/android"
+		android:toXDelta="-50"
+		android:toYDelta="-50"
+		android:startOffset="500"
+		android:duration="500"
+	 />
+</set>

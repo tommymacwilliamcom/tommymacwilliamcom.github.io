@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93FF702F1507E7FA00488993 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FF702E1507E7FA00488993 /* UIKit.framework */; };
+		93FF70311507E7FA00488993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FF70301507E7FA00488993 /* Foundation.framework */; };
+		93FF70331507E7FA00488993 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FF70321507E7FA00488993 /* CoreGraphics.framework */; };
+		93FF70391507E7FA00488993 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93FF70371507E7FA00488993 /* InfoPlist.strings */; };
+		93FF703B1507E7FA00488993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FF703A1507E7FA00488993 /* main.m */; };
+		93FF703F1507E7FA00488993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FF703E1507E7FA00488993 /* AppDelegate.m */; };
+		93FF70421507E7FA00488993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FF70411507E7FA00488993 /* ViewController.m */; };
+		93FF70451507E7FA00488993 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93FF70431507E7FA00488993 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93FF702A1507E7FA00488993 /* BetterTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FF702E1507E7FA00488993 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93FF70301507E7FA00488993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93FF70321507E7FA00488993 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93FF70361507E7FA00488993 /* BetterTextField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterTextField-Info.plist"; sourceTree = "<group>"; };
+		93FF70381507E7FA00488993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93FF703A1507E7FA00488993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93FF703C1507E7FA00488993 /* BetterTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BetterTextField-Prefix.pch"; sourceTree = "<group>"; };
+		93FF703D1507E7FA00488993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93FF703E1507E7FA00488993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93FF70401507E7FA00488993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93FF70411507E7FA00488993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93FF70441507E7FA00488993 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93FF70271507E7FA00488993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FF702F1507E7FA00488993 /* UIKit.framework in Frameworks */,
+				93FF70311507E7FA00488993 /* Foundation.framework in Frameworks */,
+				93FF70331507E7FA00488993 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93FF701F1507E7FA00488993 = {
+			isa = PBXGroup;
+			children = (
+				93FF70341507E7FA00488993 /* BetterTextField */,
+				93FF702D1507E7FA00488993 /* Frameworks */,
+				93FF702B1507E7FA00488993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93FF702B1507E7FA00488993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93FF702A1507E7FA00488993 /* BetterTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93FF702D1507E7FA00488993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93FF702E1507E7FA00488993 /* UIKit.framework */,
+				93FF70301507E7FA00488993 /* Foundation.framework */,
+				93FF70321507E7FA00488993 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93FF70341507E7FA00488993 /* BetterTextField */ = {
+			isa = PBXGroup;
+			children = (
+				93FF703D1507E7FA00488993 /* AppDelegate.h */,
+				93FF703E1507E7FA00488993 /* AppDelegate.m */,
+				93FF70401507E7FA00488993 /* ViewController.h */,
+				93FF70411507E7FA00488993 /* ViewController.m */,
+				93FF70431507E7FA00488993 /* ViewController.xib */,
+				93FF70351507E7FA00488993 /* Supporting Files */,
+			);
+			path = BetterTextField;
+			sourceTree = "<group>";
+		};
+		93FF70351507E7FA00488993 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93FF70361507E7FA00488993 /* BetterTextField-Info.plist */,
+				93FF70371507E7FA00488993 /* InfoPlist.strings */,
+				93FF703A1507E7FA00488993 /* main.m */,
+				93FF703C1507E7FA00488993 /* BetterTextField-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93FF70291507E7FA00488993 /* BetterTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FF70481507E7FA00488993 /* Build configuration list for PBXNativeTarget "BetterTextField" */;
+			buildPhases = (
+				93FF70261507E7FA00488993 /* Sources */,
+				93FF70271507E7FA00488993 /* Frameworks */,
+				93FF70281507E7FA00488993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterTextField;
+			productName = BetterTextField;
+			productReference = 93FF702A1507E7FA00488993 /* BetterTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93FF70211507E7FA00488993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 93FF70241507E7FA00488993 /* Build configuration list for PBXProject "BetterTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93FF701F1507E7FA00488993;
+			productRefGroup = 93FF702B1507E7FA00488993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93FF70291507E7FA00488993 /* BetterTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93FF70281507E7FA00488993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FF70391507E7FA00488993 /* InfoPlist.strings in Resources */,
+				93FF70451507E7FA00488993 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93FF70261507E7FA00488993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FF703B1507E7FA00488993 /* main.m in Sources */,
+				93FF703F1507E7FA00488993 /* AppDelegate.m in Sources */,
+				93FF70421507E7FA00488993 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93FF70371507E7FA00488993 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93FF70381507E7FA00488993 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93FF70431507E7FA00488993 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93FF70441507E7FA00488993 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93FF70461507E7FA00488993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93FF70471507E7FA00488993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93FF70491507E7FA00488993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterTextField/BetterTextField-Prefix.pch";
+				INFOPLIST_FILE = "BetterTextField/BetterTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93FF704A1507E7FA00488993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BetterTextField/BetterTextField-Prefix.pch";
+				INFOPLIST_FILE = "BetterTextField/BetterTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93FF70241507E7FA00488993 /* Build configuration list for PBXProject "BetterTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FF70461507E7FA00488993 /* Debug */,
+				93FF70471507E7FA00488993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93FF70481507E7FA00488993 /* Build configuration list for PBXNativeTarget "BetterTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FF70491507E7FA00488993 /* Debug */,
+				93FF704A1507E7FA00488993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93FF70211507E7FA00488993 /* Project object */;
+}

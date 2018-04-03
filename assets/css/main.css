@@ -1,0 +1,348 @@
+.aqua {
+    background: rgb(0, 64, 79);
+    color: white;
+}
+
+.blue {
+    background: rgb(2, 185, 244);
+    color: white;
+}
+
+.blue:hover {
+    background: rgb(0, 192, 255);
+}
+
+.dark-blue {
+    background: rgb(0, 62, 130);
+    color: white;
+}
+
+.dark-gray {
+    background: rgb(64, 64, 64);
+    color: white;
+}
+
+.dark-purple {
+    background: rgb(56, 0, 67);
+    color: white;
+}
+
+.dark-red {
+    background: rgb(103, 1, 0);
+    color: white;
+}
+
+.green {
+    background: rgb(0, 157, 25);
+    color: white;
+}
+
+.green:hover {
+    background: rgb(95, 185, 12);
+}
+
+.gray {
+    background: #999;
+}
+
+.gray:hover {
+    background: #bbb;
+}
+
+.orange {
+    background: rgb(224, 155, 23);
+    color: white;
+}
+
+.orange:hover {
+    background: rgb(252, 195, 91);
+}
+
+.purple {
+    background: rgb(80, 76, 170);
+    color: white;
+}
+
+.purple:hover {
+    background: rgb(96, 90, 203);
+}
+
+.red {
+    background: rgb(228, 43, 0);
+    color: white;
+}
+
+.red:hover {
+    background: rgb(233, 78, 43);
+}
+
+.tan {
+    background: #F2EFDF;
+    color: black;
+}
+
+.teal {
+    background: rgb(2, 173, 178);
+    color: white;
+}
+
+.teal:hover {
+    background: rgb(229, 147, 0);
+}
+
+.yellow {
+    background: rgb(175, 175, 0);
+    color: white;
+}
+
+.yellow:hover {
+    background: rgb(200, 200, 0);
+}
+
+html, body {
+    font-family: 'PTSansNarrowRegular';
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header {
+    position: relative;
+}
+
+#header h1 {
+    left: 8px;
+    font-size: 55px;
+    position: absolute;
+    top: 38px;
+}
+
+#header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#header ul {
+    position: absolute;
+    right: 0;
+    top: 59px;
+    font-size: 25px;
+}
+
+#header ul li {
+    display: inline-block;
+    font-family: 'PTSansRegular';
+    list-style: none;
+    margin-right: 20px;
+}
+
+#header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+#header .red:hover {
+    /*background: rgb(0, 156, 100);*/
+    background: #27ae60;
+}
+
+#header .purple:hover {
+    background: rgb(170, 156, 84);
+}
+
+#header .gray:hover {
+    background: rgb(118, 0, 160);
+}
+
+#content {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+
+#home-text {
+    position: absolute; 
+    z-index: 10; 
+    left: 80px; 
+    top: 80px; 
+    background: gray; 
+    padding: 20px; 
+    font-size: 32px;
+}
+
+#home-text p {
+    padding-top: 5px;
+}
+
+#home-text table {
+    margin-top: 30px;
+}
+
+#home-text table td {
+    padding: 10px 60px 10px 0px;
+}
+
+#home-text table a {
+    color: white;
+    text-decoration: none;
+}
+
+#home-text table a:hover {
+    color: #ddd;
+}
+
+#home-text .icon-calendar {
+    margin-right: 3px;
+}
+
+#home-text .icon-envelope {
+    margin-right: 3px;
+}
+
+#home-text .icon-github {
+    margin-right: 5px;
+}
+
+#home-text .icon-linkedin {
+    margin-right: 8px;
+}
+
+.collapse-list {
+    margin: 0;
+    padding: 0;
+}
+
+.collapse-list li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.collapse-list li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 1210px;
+}
+
+.collapse-list > li {
+    margin: 0 0 15px 0;
+}
+
+.collapse-list > li > a {
+    padding: 20px 0 18px 25px;
+    font-size: 28px;
+}
+
+.collapse-list > li > a span {
+    margin-right: 10px;
+}
+
+.collapse-list > li > ul {
+    display: none;
+    margin-left: 0;
+}
+
+.collapse-list > li > ul > li > a {
+    padding: 20px 0 18px 25px;
+    font-size: 28px;
+    display: block;
+    margin-top: 3px;
+}
+
+.collapse-list > li > ul > li > a > span {
+    position: absolute;
+    right: 34px;
+    font-size: 20px;
+}
+
+.collapse-list > li > ul > li > a > div {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.turquoise {
+    background: #1abc9c;
+}
+
+.emerland {
+    background: #2ecc71;
+}
+
+.river {
+    background: #3498db;
+}
+
+.amethyst {
+    background: #9b59b6;
+}
+
+.asphalt {
+    background: #34495e;
+}
+
+.sea {
+    background: #16a085;
+}
+
+.nephritis {
+    background: #27ae60;
+}
+
+.belize {
+    background: #2980b9;
+}
+
+.wisteria {
+    background: #8e44ad;
+}
+
+.midnight {
+    background: #2c3e50;
+}
+
+.sunflower {
+    background: #f1c40f;
+}
+
+.carrot {
+    background: #e67e22;
+}
+
+.alizarin {
+    background: #e74c3c;
+}
+
+.clouds {
+    background: #ecf0f1;
+}
+
+.concrete {
+    background: #95a5a6;
+}
+
+.orange {
+    background: #f39c12;
+}
+
+.pumpkin {
+    background: #d35400;
+}
+
+.pomegranate {
+    background: #c0392b;
+}
+
+.silver {
+    background: #bdc3c7;
+}
+
+.asbestos {
+    background: #7f8c8d;
+}

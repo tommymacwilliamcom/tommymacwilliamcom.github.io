@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="text/javascript">
+
+function f() {
+    // no var: global variable
+    x = 0;
+    // var: local variable
+    var y = 0;
+    for (var i = 0; i < 5; i++) {
+        // var limits scope to FUNCTION, not loop!
+        var z = 4;
+        x++;
+        y++;
+    }
+    alert("z is " + z);
+}
+
+function g() {
+    x++;
+    alert("x is " + x);
+}
+
+f();
+g();
+
+    </script>
+  </head>
+  <body>
+    <h1>ta-da!</h1>
+  </body>
+</html>

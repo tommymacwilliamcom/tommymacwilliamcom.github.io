@@ -1,0 +1,40 @@
+- section: Publications
+  div: true
+  items:
+    - name: "CrowdCL: Web-Based Volunteer Computing on the GPU"
+      link: /docs/publications/hpec13.pdf
+      description: 17th Annual IEEE High Performance Extreme Computing Conference.
+
+    - name: "Streamlining Grading toward Better Feedback"
+      link: /docs/publications/iticse13.pdf
+      description: 18th Annual ACM Conference on Innovation and Technology in Computer Science Education.
+
+    - name: "Engaging Students Through Video: Integrating Assessment and Instrumentation"
+      link: /docs/publications/ccscne13.pdf
+      description: 18th Annual Conference of the Northeast region of the Consortium for Computing Sciences in Colleges.
+
+    - name: "Scaling Office Hours: Efficiently Managing Live Q&A in Large Courses"
+      link: /docs/publications/ccsce12.pdf
+      description: 28th Annual Conference of the Eastern Region of the Consortium for Computing Sciences in Colleges.
+
+- section: Guides
+  items:
+    - name: Advanced Placement Calculus
+      link: /docs/guides/calculus.pdf
+      description: Formula and Theorem Review
+
+    - name: Introduction to Theory of Computation
+      link: /docs/guides/cs121.pdf
+      description: Course Notes
+
+    - name: Linear Algebra and Differential Equations
+      link: /docs/guides/math21b.pdf
+      description: Formula and Theorem Review
+
+    - name: Multivariable Calculus
+      link: /docs/guides/math21a.pdf
+      description: Formula and Theorem Review
+
+    - name: Quantitative Methods for Economics
+      link: /docs/guides/stat104.pdf
+      description: Formula and Theorem Review

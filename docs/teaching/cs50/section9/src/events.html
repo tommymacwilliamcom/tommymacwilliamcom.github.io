@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="text/javascript">
+
+function init() {
+    alert("page is loaded, let\'s do this!");
+    // event handler when link is clicked
+    document.getElementById("link").onclick = function() {
+        // change href attribute to redirect to another page!
+        alert("HAHA FOOLED YOU");
+        document.getElementById("link").href = "http://google.com";
+    };
+}
+
+function makeRed() {
+    // make text red
+    document.getElementById("paragraph").style.color = "red";
+}
+
+function makeBlue() {
+    // make text blue
+    document.getElementById("paragraph").style.color = "blue";
+}
+
+
+    </Script>
+  </head>
+  <body onload="init()">
+    <h1>ANOTHER ONE OF TOMMY'S SWEET PAGES</h1>
+    <a id="link" href="http://cs50.net">this is TOTALLY going to take you to cs50.net</a>
+    <br />
+    <p id="paragraph" onmouseover="makeRed()" onmouseout="makeBlue()">man javascript is so baller</p>
+  </body>
+</html>
+  

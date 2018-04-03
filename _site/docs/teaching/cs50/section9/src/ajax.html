@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <script type="text/javascript">
+
+function init() {
+    // create ajax object
+    var xhr = new XMLHttpRequest();
+    // request url
+    var url = "time.php";
+    // event handler
+    xhr.onreadystatechange = function() {
+        // make sure request was valid
+        if (xhr.readyState == 4 && xhr.status == 200)
+            // display clock
+            document.getElementById("time").innerHTML = xhr.responseText;
+    }
+
+    // refresh every 1000ms (1 second)
+    setInterval(function() {
+        xhr.open("GET", url, true);
+        xhr.send();
+    }, 1000);
+}
+
+    </script>
+  </head>
+  <body onload="init()">
+    <h1>The AJAX-enabled Web 2.0 CLOCK</h1>
+    <h2 id="time" style="font-size: 36px; color: blue; margin-left: 100px;"></h2>
+  </body>
+</html>
+  

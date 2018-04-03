@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Section0App' target in the 'Section0App' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

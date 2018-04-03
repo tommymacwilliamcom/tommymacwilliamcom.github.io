@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--style for all buttons -->
+	<style name="ButtonStyle">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:padding">30sp</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#088A08</item>
+	</style>
+	<!-- style for monospace, inherits from ButtonStyle -->
+	<style name="ButtonStyle.Monospace">
+		<item name="android:typeface">monospace</item>
+	</style>
+</resources>

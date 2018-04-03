@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Section5App5</string>
+    <string-array name="teams">
+    	<item>Red Sox</item>
+    	<item>Yankees</item>
+    	<item>Rays</item>
+    	 <item>Blue Jays</item>
+    	<item>Orioles</item>
+    	<item>Giants</item>
+    	<item>Rockies</item>
+    	<item>D-Backs</item>
+    	<item>Dodgers</item>
+    	<item>Padres</item>
+    </string-array>
+</resources>

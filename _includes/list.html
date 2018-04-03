@@ -1,0 +1,21 @@
+<ul class="collapse-list">
+    {% for s in include.sections %}
+    <li>
+        <a href="#" class="{{ include.section }}"><span>&gt;</span> {{ s.section }}</a>
+        <ul>
+            {% for i in s.items %}
+            <li>
+                <a href="{{ i.link }}" target="_blank" class="{{ include.item }}">
+                    {{ i.name }}
+                    {% if s.div %}
+                        <div>{{ i.description }}</div>
+                    {% else %}
+                        <span>{{ i.description }}</span>
+                    {% endif %}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>

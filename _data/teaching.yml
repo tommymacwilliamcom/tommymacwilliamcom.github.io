@@ -1,0 +1,105 @@
+- section: "CS50: Introduction to Computer Science"
+  items:
+    - name: Week 1
+      link: /docs/teaching/cs50/section1
+      description: Command-Line. Conditions. Loops.
+
+    - name: Week 2
+      link: /docs/teaching/cs50/section2
+      description: Arrays. Functions. Scope.
+
+    - name: Week 3
+      link: /docs/teaching/cs50/section3
+      description: Recursion. Runtime. Searching. Sorting.
+
+    - name: Week 4
+      link: /docs/teaching/cs50/section4
+      description: Heap. Pointers. Stack.
+
+    - name: Week 5
+      link: /docs/teaching/cs50/section5
+      description: Review
+
+    - name: Week 6
+      link: /docs/teaching/cs50/section6
+      description: File I/O. Structs.
+
+    - name: Week 7
+      link: /docs/teaching/cs50/section7
+      description: Binary Trees. Hashtables. Linked Lists.
+
+    - name: Week 8
+      link: /docs/teaching/cs50/section8
+      description: CSS. HTML. PHP. SQL.
+
+    - name: Week 9
+      link: /docs/teaching/cs50/section9
+      description: Ajax. DOM. Javascript.
+
+    - name: Week 10
+      link: /docs/teaching/cs50/section10
+      description: Review
+
+- section: "CS164: Mobile Software Engineering"
+  items:
+    - name: Week 1
+      link: /docs/teaching/cs164/section1
+      description: Model-View-Controller.
+
+    - name: Week 2
+      link: /docs/teaching/cs164/section2
+      description: Object-Oriented Programming.
+
+    - name: Week 3
+      link: /docs/teaching/cs164/section3
+      description: XCode and Interface Builder.
+
+    - name: Week 4
+      link: /docs/teaching/cs164/section4
+      description: Evil Hangman.
+
+    - name: Week 5
+      link: /docs/teaching/cs164/section5
+      description: TableViews and Navigation Controllers.
+
+    - name: Week 6
+      link: /docs/teaching/cs164/section6
+      description: MapKit and Movies.
+
+- section: "CSCI E-76: Building Mobile Applications"
+  items:
+    - name: Week 1
+      link: /docs/teaching/cs76/section1
+      description: HTML5.
+
+    - name: Week 2
+      link: /docs/teaching/cs76/section2
+      description: "Android: Java"
+
+    - name: Week 3
+      link: /docs/teaching/cs76/section3
+      description: "Android: Fundamentals and SDK Tools."
+
+    - name: Week 4
+      link: /docs/teaching/cs76/section4
+      description: "Android: Animation, Intents, and Resources."
+
+    - name: Week 5
+      link: /docs/teaching/cs76/section5
+      description: "iOS: Objective-C."
+
+    - name: Week 6
+      link: /docs/teaching/cs76/section6
+      description: "iOS: XCode and Interface Builder."
+
+    - name: Week 7
+      link: /docs/teaching/cs76/section7
+      description: "iOS: TableViews and Navigation Controllers."
+
+    - name: Week 8
+      link: /docs/teaching/cs76/section8
+      description: "iOS: MapKit and Movies."
+
+    - name: Week 9
+      link: /docs/teaching/cs76/section9
+      description: "iOS: Core Graphics and Core Animation."

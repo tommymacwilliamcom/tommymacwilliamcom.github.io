@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<textarea id="text" style="width: 500px; height: 150px;"></textarea>
+		<h1>Characters left: <span id="characters-remaining">140</span>
+		<script>
+
+			// get elements
+			var textarea = document.getElementById('text');
+			var remaining = document.getElementById('characters-remaining');
+
+			// event for key press inside text box
+			textarea.onkeyup = function(e) {
+				// calculate characters remaining
+				var r = 140 - textarea.value.length;
+
+				// don't allow more than 140 characters
+				if (r <= 0) {
+					textarea.value = textarea.value.substring(0, 10);
+					return false;
+				}
+
+				// display number of characters remaining
+				remaining.innerHTML = r;
+			};
+
+		</script>
+	</body>
+</html>

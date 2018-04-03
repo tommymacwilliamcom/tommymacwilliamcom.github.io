@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9357FF891520EF8600748A78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357FF881520EF8600748A78 /* UIKit.framework */; };
+		9357FF8B1520EF8600748A78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357FF8A1520EF8600748A78 /* Foundation.framework */; };
+		9357FF8D1520EF8600748A78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357FF8C1520EF8600748A78 /* CoreGraphics.framework */; };
+		9357FF931520EF8600748A78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9357FF911520EF8600748A78 /* InfoPlist.strings */; };
+		9357FF951520EF8600748A78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357FF941520EF8600748A78 /* main.m */; };
+		9357FF991520EF8600748A78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357FF981520EF8600748A78 /* AppDelegate.m */; };
+		9357FF9C1520EF8600748A78 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357FF9B1520EF8600748A78 /* MasterViewController.m */; };
+		9357FFA21520EF8600748A78 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357FFA01520EF8600748A78 /* MasterViewController.xib */; };
+		9357FFB81520F08700748A78 /* DivisionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357FFB01520F08700748A78 /* DivisionsViewController.m */; };
+		9357FFB91520F08700748A78 /* DivisionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357FFB11520F08700748A78 /* DivisionsViewController.xib */; };
+		9357FFBA1520F08700748A78 /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357FFB31520F08700748A78 /* TeamsViewController.m */; };
+		9357FFBB1520F08700748A78 /* TeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357FFB41520F08700748A78 /* TeamsViewController.xib */; };
+		9357FFBC1520F08700748A78 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357FFB61520F08700748A78 /* TeamViewController.m */; };
+		9357FFBD1520F08700748A78 /* TeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9357FFB71520F08700748A78 /* TeamViewController.xib */; };
+		9357FFBF1520F09100748A78 /* Teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9357FFBE1520F09100748A78 /* Teams.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9357FF841520EF8600748A78 /* MLBTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9357FF881520EF8600748A78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9357FF8A1520EF8600748A78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9357FF8C1520EF8600748A78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9357FF901520EF8600748A78 /* MLBTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLBTableViewController-Info.plist"; sourceTree = "<group>"; };
+		9357FF921520EF8600748A78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9357FF941520EF8600748A78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9357FF961520EF8600748A78 /* MLBTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLBTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		9357FF971520EF8600748A78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9357FF981520EF8600748A78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9357FF9A1520EF8600748A78 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		9357FF9B1520EF8600748A78 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		9357FFA11520EF8600748A78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		9357FFAF1520F08700748A78 /* DivisionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionsViewController.h; sourceTree = "<group>"; };
+		9357FFB01520F08700748A78 /* DivisionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionsViewController.m; sourceTree = "<group>"; };
+		9357FFB11520F08700748A78 /* DivisionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DivisionsViewController.xib; sourceTree = "<group>"; };
+		9357FFB21520F08700748A78 /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
+		9357FFB31520F08700748A78 /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
+		9357FFB41520F08700748A78 /* TeamsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsViewController.xib; sourceTree = "<group>"; };
+		9357FFB51520F08700748A78 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		9357FFB61520F08700748A78 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		9357FFB71520F08700748A78 /* TeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamViewController.xib; sourceTree = "<group>"; };
+		9357FFBE1520F09100748A78 /* Teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Teams.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9357FF811520EF8600748A78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9357FF891520EF8600748A78 /* UIKit.framework in Frameworks */,
+				9357FF8B1520EF8600748A78 /* Foundation.framework in Frameworks */,
+				9357FF8D1520EF8600748A78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9357FF791520EF8600748A78 = {
+			isa = PBXGroup;
+			children = (
+				9357FF8E1520EF8600748A78 /* MLBTableViewController */,
+				9357FF871520EF8600748A78 /* Frameworks */,
+				9357FF851520EF8600748A78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9357FF851520EF8600748A78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9357FF841520EF8600748A78 /* MLBTableViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9357FF871520EF8600748A78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9357FF881520EF8600748A78 /* UIKit.framework */,
+				9357FF8A1520EF8600748A78 /* Foundation.framework */,
+				9357FF8C1520EF8600748A78 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9357FF8E1520EF8600748A78 /* MLBTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9357FF971520EF8600748A78 /* AppDelegate.h */,
+				9357FF981520EF8600748A78 /* AppDelegate.m */,
+				9357FF9A1520EF8600748A78 /* MasterViewController.h */,
+				9357FF9B1520EF8600748A78 /* MasterViewController.m */,
+				9357FFA01520EF8600748A78 /* MasterViewController.xib */,
+				9357FFAF1520F08700748A78 /* DivisionsViewController.h */,
+				9357FFB01520F08700748A78 /* DivisionsViewController.m */,
+				9357FFB11520F08700748A78 /* DivisionsViewController.xib */,
+				9357FFB21520F08700748A78 /* TeamsViewController.h */,
+				9357FFB31520F08700748A78 /* TeamsViewController.m */,
+				9357FFB41520F08700748A78 /* TeamsViewController.xib */,
+				9357FFB51520F08700748A78 /* TeamViewController.h */,
+				9357FFB61520F08700748A78 /* TeamViewController.m */,
+				9357FFB71520F08700748A78 /* TeamViewController.xib */,
+				9357FF8F1520EF8600748A78 /* Supporting Files */,
+			);
+			path = MLBTableViewController;
+			sourceTree = "<group>";
+		};
+		9357FF8F1520EF8600748A78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9357FF901520EF8600748A78 /* MLBTableViewController-Info.plist */,
+				9357FF911520EF8600748A78 /* InfoPlist.strings */,
+				9357FF941520EF8600748A78 /* main.m */,
+				9357FF961520EF8600748A78 /* MLBTableViewController-Prefix.pch */,
+				9357FFBE1520F09100748A78 /* Teams.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9357FF831520EF8600748A78 /* MLBTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9357FFA81520EF8600748A78 /* Build configuration list for PBXNativeTarget "MLBTableViewController" */;
+			buildPhases = (
+				9357FF801520EF8600748A78 /* Sources */,
+				9357FF811520EF8600748A78 /* Frameworks */,
+				9357FF821520EF8600748A78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLBTableViewController;
+			productName = MLBTableViewController;
+			productReference = 9357FF841520EF8600748A78 /* MLBTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9357FF7B1520EF8600748A78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9357FF7E1520EF8600748A78 /* Build configuration list for PBXProject "MLBTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9357FF791520EF8600748A78;
+			productRefGroup = 9357FF851520EF8600748A78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9357FF831520EF8600748A78 /* MLBTableViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9357FF821520EF8600748A78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9357FF931520EF8600748A78 /* InfoPlist.strings in Resources */,
+				9357FFA21520EF8600748A78 /* MasterViewController.xib in Resources */,
+				9357FFB91520F08700748A78 /* DivisionsViewController.xib in Resources */,
+				9357FFBB1520F08700748A78 /* TeamsViewController.xib in Resources */,
+				9357FFBD1520F08700748A78 /* TeamViewController.xib in Resources */,
+				9357FFBF1520F09100748A78 /* Teams.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9357FF801520EF8600748A78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9357FF951520EF8600748A78 /* main.m in Sources */,
+				9357FF991520EF8600748A78 /* AppDelegate.m in Sources */,
+				9357FF9C1520EF8600748A78 /* MasterViewController.m in Sources */,
+				9357FFB81520F08700748A78 /* DivisionsViewController.m in Sources */,
+				9357FFBA1520F08700748A78 /* TeamsViewController.m in Sources */,
+				9357FFBC1520F08700748A78 /* TeamViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9357FF911520EF8600748A78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9357FF921520EF8600748A78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9357FFA01520EF8600748A78 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9357FFA11520EF8600748A78 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9357FFA61520EF8600748A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9357FFA71520EF8600748A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9357FFA91520EF8600748A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBTableViewController/MLBTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "MLBTableViewController/MLBTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9357FFAA1520EF8600748A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBTableViewController/MLBTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "MLBTableViewController/MLBTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9357FF7E1520EF8600748A78 /* Build configuration list for PBXProject "MLBTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9357FFA61520EF8600748A78 /* Debug */,
+				9357FFA71520EF8600748A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9357FFA81520EF8600748A78 /* Build configuration list for PBXNativeTarget "MLBTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9357FFA91520EF8600748A78 /* Debug */,
+				9357FFAA1520EF8600748A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9357FF7B1520EF8600748A78 /* Project object */;
+}

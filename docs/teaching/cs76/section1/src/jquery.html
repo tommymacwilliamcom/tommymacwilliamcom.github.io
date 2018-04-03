@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+
+.big {
+    font-size: 30px;
+}
+
+    </style>
+
+    <!-- load the jquery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+    <script>
+
+$(document).ready(function() {
+    $("#1").click(function() {
+        $(this).hide("slow");
+    });
+
+    $("#2").click(function() {
+        $(this).css({ color: "red", background: "black" });
+    });
+
+    $("#3").hover(function() {
+        $(this).addClass("big");
+    }, function() {
+        $(this).removeClass("big");
+    });
+
+    $("#4").click(function() {
+        $(this).after('<p>new paragraph!</p>');
+    });
+});
+
+    </script>
+  </head>
+  <body>
+    <p id="1">I'll hide on click</p>
+    <p id="2" style="margin-left: 100px;">I'll change my css, preserving my previous style</p>
+    <p id="3">I'll add/remove a class on hover</p>
+    <p id="4">I'll add another paragraph</p>
+  </body>
+</html>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button1_text">Fading button</string>
+    <string name="button2_text">Moving button</string>
+    <string name="button3_text">Scaling button</string>
+    <string name="app_name">Section4App2</string>
+</resources>

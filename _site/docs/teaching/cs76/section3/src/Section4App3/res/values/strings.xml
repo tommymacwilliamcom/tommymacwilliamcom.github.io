@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button1_text">Linear button</string>
+    <string name="button2_text">Bounce button</string>
+    <string name="button3_text">Overshoot button</string>
+    <string name="app_name">Section4App3</string>
+</resources>

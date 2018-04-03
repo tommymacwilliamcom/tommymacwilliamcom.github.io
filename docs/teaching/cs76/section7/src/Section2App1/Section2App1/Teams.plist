@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>American</key>
+	<dict>
+		<key>AL East</key>
+		<dict>
+			<key>Boston</key>
+			<string>bos</string>
+			<key>New York</key>
+			<string>nyy</string>
+			<key>Baltimore</key>
+			<string>bal</string>
+			<key>Tampa Bay</key>
+			<string>tb</string>
+			<key>Toronto</key>
+			<string>tor</string>
+		</dict>
+		<key>AL Central</key>
+		<dict>
+			<key>Chicago</key>
+			<string>cws</string>
+			<key>Cleveland</key>
+			<string>cle</string>
+			<key>Minnesota</key>
+			<string>min</string>
+			<key>Detroit</key>
+			<string>det</string>
+			<key>Kansas City</key>
+			<string>kc</string>
+		</dict>
+		<key>AL West</key>
+		<dict>
+			<key>LA Angels</key>
+			<string>ana</string>
+			<key>Oakland</key>
+			<string>oak</string>
+			<key>Seattle</key>
+			<string>sea</string>
+			<key>Texas</key>
+			<string>tex</string>
+		</dict>
+	</dict>
+	<key>National</key>
+	<dict>
+		<key>NL East</key>
+		<dict>
+			<key>Atlanta</key>
+			<string>atl</string>
+			<key>Florida</key>
+			<string>fla</string>
+			<key>New York</key>
+			<string>nym</string>
+			<key>Philadelphia</key>
+			<string>phi</string>
+			<key>Washington</key>
+			<string>was</string>
+		</dict>
+		<key>NL Central</key>
+		<dict>
+			<key>Cincinnati</key>
+			<string>cin</string>
+			<key>Chicago</key>
+			<string>chc</string>
+			<key>Houston</key>
+			<string>hou</string>
+			<key>Pittsburgh</key>
+			<string>pit</string>
+			<key>Milwaukee</key>
+			<string>mil</string>
+			<key>St. Louis</key>
+			<string>stl</string>
+		</dict>
+		<key>NL West</key>
+		<dict>
+			<key>Los Angeles</key>
+			<string>la</string>
+			<key>San Diego</key>
+			<string>sd</string>
+			<key>Arizona</key>
+			<string>ari</string>
+			<key>Colorado</key>
+			<string>col</string>
+			<key>San Francisco</key>
+			<string>sf</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

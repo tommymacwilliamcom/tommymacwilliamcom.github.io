@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931CAC77152244DE00E69138 /* AddTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931CAC75152244DE00E69138 /* AddTodoViewController.m */; };
+		931CAC78152244DE00E69138 /* AddTodoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931CAC76152244DE00E69138 /* AddTodoViewController.xib */; };
+		939701A0152241B4004387FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9397019F152241B4004387FA /* UIKit.framework */; };
+		939701A2152241B4004387FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939701A1152241B4004387FA /* Foundation.framework */; };
+		939701A4152241B4004387FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939701A3152241B4004387FA /* CoreGraphics.framework */; };
+		939701AA152241B4004387FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939701A8152241B4004387FA /* InfoPlist.strings */; };
+		939701AC152241B4004387FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 939701AB152241B4004387FA /* main.m */; };
+		939701B0152241B4004387FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 939701AF152241B4004387FA /* AppDelegate.m */; };
+		939701B3152241B4004387FA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939701B2152241B4004387FA /* MasterViewController.m */; };
+		939701B9152241B4004387FA /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939701B7152241B4004387FA /* MasterViewController.xib */; };
+		939701C31522425D004387FA /* Fruits.plist in Resources */ = {isa = PBXBuildFile; fileRef = 939701C21522425D004387FA /* Fruits.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		931CAC74152244DE00E69138 /* AddTodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = AddTodoViewController.h; sourceTree = "<group>"; };
+		931CAC75152244DE00E69138 /* AddTodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTodoViewController.m; sourceTree = "<group>"; };
+		931CAC76152244DE00E69138 /* AddTodoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTodoViewController.xib; sourceTree = "<group>"; };
+		9397019B152241B4004387FA /* EditableTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditableTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9397019F152241B4004387FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		939701A1152241B4004387FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		939701A3152241B4004387FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		939701A7152241B4004387FA /* EditableTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EditableTableViewController-Info.plist"; sourceTree = "<group>"; };
+		939701A9152241B4004387FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		939701AB152241B4004387FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		939701AD152241B4004387FA /* EditableTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EditableTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		939701AE152241B4004387FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		939701AF152241B4004387FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		939701B1152241B4004387FA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		939701B2152241B4004387FA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		939701B8152241B4004387FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		939701C21522425D004387FA /* Fruits.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Fruits.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93970198152241B4004387FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939701A0152241B4004387FA /* UIKit.framework in Frameworks */,
+				939701A2152241B4004387FA /* Foundation.framework in Frameworks */,
+				939701A4152241B4004387FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93970190152241B4004387FA = {
+			isa = PBXGroup;
+			children = (
+				939701A5152241B4004387FA /* EditableTableViewController */,
+				9397019E152241B4004387FA /* Frameworks */,
+				9397019C152241B4004387FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9397019C152241B4004387FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9397019B152241B4004387FA /* EditableTableViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9397019E152241B4004387FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9397019F152241B4004387FA /* UIKit.framework */,
+				939701A1152241B4004387FA /* Foundation.framework */,
+				939701A3152241B4004387FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		939701A5152241B4004387FA /* EditableTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				939701AE152241B4004387FA /* AppDelegate.h */,
+				939701AF152241B4004387FA /* AppDelegate.m */,
+				939701B1152241B4004387FA /* MasterViewController.h */,
+				939701B2152241B4004387FA /* MasterViewController.m */,
+				939701B7152241B4004387FA /* MasterViewController.xib */,
+				931CAC74152244DE00E69138 /* AddTodoViewController.h */,
+				931CAC75152244DE00E69138 /* AddTodoViewController.m */,
+				931CAC76152244DE00E69138 /* AddTodoViewController.xib */,
+				939701A6152241B4004387FA /* Supporting Files */,
+			);
+			path = EditableTableViewController;
+			sourceTree = "<group>";
+		};
+		939701A6152241B4004387FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				939701C21522425D004387FA /* Fruits.plist */,
+				939701A7152241B4004387FA /* EditableTableViewController-Info.plist */,
+				939701A8152241B4004387FA /* InfoPlist.strings */,
+				939701AB152241B4004387FA /* main.m */,
+				939701AD152241B4004387FA /* EditableTableViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9397019A152241B4004387FA /* EditableTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939701BF152241B4004387FA /* Build configuration list for PBXNativeTarget "EditableTableViewController" */;
+			buildPhases = (
+				93970197152241B4004387FA /* Sources */,
+				93970198152241B4004387FA /* Frameworks */,
+				93970199152241B4004387FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EditableTableViewController;
+			productName = EditableTableViewController;
+			productReference = 9397019B152241B4004387FA /* EditableTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93970192152241B4004387FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 93970195152241B4004387FA /* Build configuration list for PBXProject "EditableTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93970190152241B4004387FA;
+			productRefGroup = 9397019C152241B4004387FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9397019A152241B4004387FA /* EditableTableViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93970199152241B4004387FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939701AA152241B4004387FA /* InfoPlist.strings in Resources */,
+				939701B9152241B4004387FA /* MasterViewController.xib in Resources */,
+				939701C31522425D004387FA /* Fruits.plist in Resources */,
+				931CAC78152244DE00E69138 /* AddTodoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93970197152241B4004387FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939701AC152241B4004387FA /* main.m in Sources */,
+				939701B0152241B4004387FA /* AppDelegate.m in Sources */,
+				939701B3152241B4004387FA /* MasterViewController.m in Sources */,
+				931CAC77152244DE00E69138 /* AddTodoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		939701A8152241B4004387FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939701A9152241B4004387FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		939701B7152241B4004387FA /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939701B8152241B4004387FA /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		939701BD152241B4004387FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		939701BE152241B4004387FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939701C0152241B4004387FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EditableTableViewController/EditableTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "EditableTableViewController/EditableTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		939701C1152241B4004387FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EditableTableViewController/EditableTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "EditableTableViewController/EditableTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93970195152241B4004387FA /* Build configuration list for PBXProject "EditableTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939701BD152241B4004387FA /* Debug */,
+				939701BE152241B4004387FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939701BF152241B4004387FA /* Build configuration list for PBXNativeTarget "EditableTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939701C0152241B4004387FA /* Debug */,
+				939701C1152241B4004387FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93970192152241B4004387FA /* Project object */;
+}

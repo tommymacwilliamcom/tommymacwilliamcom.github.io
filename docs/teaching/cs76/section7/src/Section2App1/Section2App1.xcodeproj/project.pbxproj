@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68C9C168134626990006E01B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C9C167134626990006E01B /* UIKit.framework */; };
+		68C9C16A134626990006E01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C9C169134626990006E01B /* Foundation.framework */; };
+		68C9C16C134626990006E01B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C9C16B134626990006E01B /* CoreGraphics.framework */; };
+		68C9C172134626990006E01B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C9C170134626990006E01B /* InfoPlist.strings */; };
+		68C9C175134626990006E01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9C174134626990006E01B /* main.m */; };
+		68C9C178134626990006E01B /* Section2App1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9C177134626990006E01B /* Section2App1AppDelegate.m */; };
+		68C9C17B134626990006E01B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C9C179134626990006E01B /* MainWindow.xib */; };
+		68C9C17E134626990006E01B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9C17D134626990006E01B /* RootViewController.m */; };
+		68C9C1811346269A0006E01B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C9C17F134626990006E01B /* RootViewController.xib */; };
+		68C9C18A1346275C0006E01B /* DivisionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9C1881346275C0006E01B /* DivisionsViewController.m */; };
+		68C9C18B1346275C0006E01B /* DivisionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C9C1891346275C0006E01B /* DivisionsViewController.xib */; };
+		68C9C18F134627690006E01B /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9C18D134627690006E01B /* TeamsViewController.m */; };
+		68C9C190134627690006E01B /* TeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C9C18E134627690006E01B /* TeamsViewController.xib */; };
+		68C9C194134628E90006E01B /* Teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68C9C193134628E90006E01B /* Teams.plist */; };
+		68C9C1A0134634A90006E01B /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9C19E134634A80006E01B /* TeamViewController.m */; };
+		68C9C1A1134634A90006E01B /* TeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C9C19F134634A90006E01B /* TeamViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68C9C163134626990006E01B /* Section2App1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Section2App1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C9C167134626990006E01B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68C9C169134626990006E01B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68C9C16B134626990006E01B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68C9C16F134626990006E01B /* Section2App1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Section2App1-Info.plist"; sourceTree = "<group>"; };
+		68C9C171134626990006E01B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68C9C173134626990006E01B /* Section2App1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Section2App1-Prefix.pch"; sourceTree = "<group>"; };
+		68C9C174134626990006E01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68C9C176134626990006E01B /* Section2App1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Section2App1AppDelegate.h; sourceTree = "<group>"; };
+		68C9C177134626990006E01B /* Section2App1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section2App1AppDelegate.m; sourceTree = "<group>"; };
+		68C9C17A134626990006E01B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		68C9C17C134626990006E01B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		68C9C17D134626990006E01B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		68C9C1801346269A0006E01B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		68C9C1871346275C0006E01B /* DivisionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisionsViewController.h; sourceTree = "<group>"; };
+		68C9C1881346275C0006E01B /* DivisionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisionsViewController.m; sourceTree = "<group>"; };
+		68C9C1891346275C0006E01B /* DivisionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DivisionsViewController.xib; sourceTree = "<group>"; };
+		68C9C18C134627690006E01B /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
+		68C9C18D134627690006E01B /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
+		68C9C18E134627690006E01B /* TeamsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsViewController.xib; sourceTree = "<group>"; };
+		68C9C193134628E90006E01B /* Teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Teams.plist; sourceTree = "<group>"; };
+		68C9C19D134634A80006E01B /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		68C9C19E134634A80006E01B /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		68C9C19F134634A90006E01B /* TeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68C9C160134626990006E01B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C9C168134626990006E01B /* UIKit.framework in Frameworks */,
+				68C9C16A134626990006E01B /* Foundation.framework in Frameworks */,
+				68C9C16C134626990006E01B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68C9C158134626990006E01B = {
+			isa = PBXGroup;
+			children = (
+				68C9C16D134626990006E01B /* Section2App1 */,
+				68C9C166134626990006E01B /* Frameworks */,
+				68C9C164134626990006E01B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68C9C164134626990006E01B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68C9C163134626990006E01B /* Section2App1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68C9C166134626990006E01B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C9C167134626990006E01B /* UIKit.framework */,
+				68C9C169134626990006E01B /* Foundation.framework */,
+				68C9C16B134626990006E01B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68C9C16D134626990006E01B /* Section2App1 */ = {
+			isa = PBXGroup;
+			children = (
+				68C9C176134626990006E01B /* Section2App1AppDelegate.h */,
+				68C9C177134626990006E01B /* Section2App1AppDelegate.m */,
+				68C9C179134626990006E01B /* MainWindow.xib */,
+				68C9C17C134626990006E01B /* RootViewController.h */,
+				68C9C17D134626990006E01B /* RootViewController.m */,
+				68C9C17F134626990006E01B /* RootViewController.xib */,
+				68C9C1871346275C0006E01B /* DivisionsViewController.h */,
+				68C9C1881346275C0006E01B /* DivisionsViewController.m */,
+				68C9C1891346275C0006E01B /* DivisionsViewController.xib */,
+				68C9C18C134627690006E01B /* TeamsViewController.h */,
+				68C9C18D134627690006E01B /* TeamsViewController.m */,
+				68C9C18E134627690006E01B /* TeamsViewController.xib */,
+				68C9C19D134634A80006E01B /* TeamViewController.h */,
+				68C9C19E134634A80006E01B /* TeamViewController.m */,
+				68C9C19F134634A90006E01B /* TeamViewController.xib */,
+				68C9C16E134626990006E01B /* Supporting Files */,
+			);
+			path = Section2App1;
+			sourceTree = "<group>";
+		};
+		68C9C16E134626990006E01B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68C9C16F134626990006E01B /* Section2App1-Info.plist */,
+				68C9C170134626990006E01B /* InfoPlist.strings */,
+				68C9C173134626990006E01B /* Section2App1-Prefix.pch */,
+				68C9C174134626990006E01B /* main.m */,
+				68C9C193134628E90006E01B /* Teams.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68C9C162134626990006E01B /* Section2App1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C9C1841346269A0006E01B /* Build configuration list for PBXNativeTarget "Section2App1" */;
+			buildPhases = (
+				68C9C15F134626990006E01B /* Sources */,
+				68C9C160134626990006E01B /* Frameworks */,
+				68C9C161134626990006E01B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Section2App1;
+			productName = Section2App1;
+			productReference = 68C9C163134626990006E01B /* Section2App1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68C9C15A134626990006E01B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Harvard University";
+			};
+			buildConfigurationList = 68C9C15D134626990006E01B /* Build configuration list for PBXProject "Section2App1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68C9C158134626990006E01B;
+			productRefGroup = 68C9C164134626990006E01B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68C9C162134626990006E01B /* Section2App1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68C9C161134626990006E01B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C9C172134626990006E01B /* InfoPlist.strings in Resources */,
+				68C9C17B134626990006E01B /* MainWindow.xib in Resources */,
+				68C9C1811346269A0006E01B /* RootViewController.xib in Resources */,
+				68C9C18B1346275C0006E01B /* DivisionsViewController.xib in Resources */,
+				68C9C190134627690006E01B /* TeamsViewController.xib in Resources */,
+				68C9C194134628E90006E01B /* Teams.plist in Resources */,
+				68C9C1A1134634A90006E01B /* TeamViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68C9C15F134626990006E01B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C9C175134626990006E01B /* main.m in Sources */,
+				68C9C178134626990006E01B /* Section2App1AppDelegate.m in Sources */,
+				68C9C17E134626990006E01B /* RootViewController.m in Sources */,
+				68C9C18A1346275C0006E01B /* DivisionsViewController.m in Sources */,
+				68C9C18F134627690006E01B /* TeamsViewController.m in Sources */,
+				68C9C1A0134634A90006E01B /* TeamViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68C9C170134626990006E01B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C9C171134626990006E01B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68C9C179134626990006E01B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C9C17A134626990006E01B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		68C9C17F134626990006E01B /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C9C1801346269A0006E01B /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68C9C1821346269A0006E01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68C9C1831346269A0006E01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		68C9C1851346269A0006E01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Section2App1/Section2App1-Prefix.pch";
+				INFOPLIST_FILE = "Section2App1/Section2App1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68C9C1861346269A0006E01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Section2App1/Section2App1-Prefix.pch";
+				INFOPLIST_FILE = "Section2App1/Section2App1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68C9C15D134626990006E01B /* Build configuration list for PBXProject "Section2App1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C9C1821346269A0006E01B /* Debug */,
+				68C9C1831346269A0006E01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C9C1841346269A0006E01B /* Build configuration list for PBXNativeTarget "Section2App1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C9C1851346269A0006E01B /* Debug */,
+				68C9C1861346269A0006E01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68C9C15A134626990006E01B /* Project object */;
+}

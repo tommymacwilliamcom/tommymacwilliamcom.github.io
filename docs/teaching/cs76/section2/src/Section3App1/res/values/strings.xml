@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Section3App1</string>
+    <string name="button_label">Here is my button</string>
+    <string name="hello_text">Hello from my other Activity!</string>
+</resources>
